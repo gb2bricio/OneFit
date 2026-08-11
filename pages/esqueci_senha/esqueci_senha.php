@@ -1,4 +1,5 @@
 <?php
+//
 // session_start() precisa vir ANTES de qualquer saída HTML, senão o PHP
 // não consegue mais criar o cookie de sessão (erro "headers already sent").
 session_start();
