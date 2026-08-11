@@ -2,7 +2,7 @@
 // session_start() precisa vir ANTES de qualquer saída HTML, senão o PHP
 // não consegue mais criar o cookie de sessão (erro "headers already sent").
 session_start();
-
+ 
 require($_SERVER['DOCUMENT_ROOT'] . '/AN25/OneFit/config/parametros.php');
 require($_SERVER['DOCUMENT_ROOT'] . '/AN25/OneFit/config/conn.php');
 ?>
